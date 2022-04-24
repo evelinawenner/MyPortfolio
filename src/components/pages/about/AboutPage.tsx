@@ -29,14 +29,14 @@ export const AboutPage = () => {
       </section>
       <section className="row">
         <section className="education">
-          <Heading>Education</Heading>
+          <Heading>{lang.language.language.education}</Heading>
           <div className="edu-div">
             <P fontWeight="600">Medieinstitutet</P>
-            <P>Frontend Developer, 400Yh-poäng</P>
+            <P>Frontend Developer, 400{lang.language.language.yh_points}</P>
           </div>
           <div className="edu-div">
-            <P fontWeight="600">Örebro Universitet</P>
-            <P>Medier, kommunikation & PR (design), 180hp</P>
+            <P fontWeight="600">{lang.language.language.uni}</P>
+            <P>{lang.language.language.uni_major}</P>
           </div>
         </section>
         <section className="techstack">

@@ -47,7 +47,7 @@ export const AboutContainer = styled.div`
   }
 
   .education {
-    height: 400px;
+    height: 300px;
     width: 50%;
     background-color: #f5f4f4;
     display: flex;
@@ -69,7 +69,7 @@ export const AboutContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 300px;
     width: 50%;
     background-color: #aa8465;
   }
