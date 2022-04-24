@@ -2,5 +2,11 @@
     "portfolio":"Portfolio",
     "home":"HEM",
     "about":"OM MIG",
-    "guest_book":"GÄSTBOK"
+    "guest_book":"GÄSTBOK",
+    "intro":"Hej. Det här är jag. En framtida frontend developer.",
+    "hire_me":"Anställ mig.",
+    "education":"Utbildning",
+    "yh_points":"YH-poäng",
+    "uni":"Örebro Universitet",
+    "uni_major": "Medier, kommunikation & PR (design), 180hp"
 }

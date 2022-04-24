@@ -2,5 +2,11 @@
     "portfolio":"Portfolio",
     "home":"HOME",
     "about":"ABOUT",
-    "guest_book":"GUEST BOOK"
+    "guest_book":"GUEST BOOK",
+    "intro":"Hi. This is me. A future frontend developer.",
+    "hire_me":"Hire me.",
+    "education":"Education",
+    "yh_points":"YH points",
+    "uni":"Örebro University",
+    "uni_major": "Media, communication & PR (design), 180hp"
 }

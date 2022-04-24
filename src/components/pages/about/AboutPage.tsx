@@ -1,13 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { AboutContainer } from "./AboutPageStyle";
 import myself from "../../globals/assets/myself.jpg";
 import { Heading, P } from "../../globals/styledElements/Text";
+import { LanguageContext } from "../../globals/context/languageContext/LanguageContext";
 
 export const AboutPage = () => {
-  //Introduction
-  //Education
-  //Techstack
-  //Experience
+  const lang = useContext(LanguageContext);
+
   return (
     <AboutContainer>
       <section className="introduction">
@@ -15,8 +14,8 @@ export const AboutPage = () => {
           <img src={myself} alt="me" />
           <div className="intro-text">
             <Heading style={{ marginBottom: 20 }}>
-              Hi. This is me. A frontend developer to be. <br />
-              Hire me?
+              {lang.language.language.intro} <br />
+              {lang.language.language.hire_me}
             </Heading>
             <P>
               Email: evelinawenner@gmail.com
