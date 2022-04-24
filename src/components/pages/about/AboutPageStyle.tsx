@@ -65,8 +65,25 @@ export const AboutContainer = styled.div`
   }
 
   .techstack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     width: 50%;
     background-color: #aa8465;
+  }
+
+  .stack-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tech-div {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
   }
 `;

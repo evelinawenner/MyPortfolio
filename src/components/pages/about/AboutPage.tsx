@@ -12,7 +12,7 @@ export const AboutPage = () => {
     <AboutContainer>
       <section className="introduction">
         <div className="intro-div">
-          <img src={myself} alt="A picture of me" />
+          <img src={myself} alt="me" />
           <div className="intro-text">
             <Heading style={{ marginBottom: 20 }}>
               Hi. This is me. A frontend developer to be. <br />
@@ -40,7 +40,32 @@ export const AboutPage = () => {
             <P>Medier, kommunikation & PR (design), 180hp</P>
           </div>
         </section>
-        <section className="techstack"></section>
+        <section className="techstack">
+          <Heading style={{ marginBottom: 20 }}>Techstack</Heading>
+          <div className="stack-container">
+            <div className="tech-div">
+              <P>HTML</P>
+              <P>CSS</P>
+              <P>SCSS</P>
+              <P>Javascript</P>
+              <P>jQuery</P>
+            </div>
+            <div className="tech-div">
+              <P>Typescript</P>
+              <P>React</P>
+              <P>Angular</P>
+              <P>NodeJS</P>
+              <P>npm</P>
+            </div>
+            <div className="tech-div">
+              <P>Express</P>
+              <P>MongoDB</P>
+              <P>Rest-API</P>
+              <P>EJS</P>
+              <P>CMS</P>
+            </div>
+          </div>
+        </section>
       </section>
     </AboutContainer>
   );
