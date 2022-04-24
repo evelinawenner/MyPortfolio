@@ -8,7 +8,7 @@ export const LandingPage = () => {
   return (
     <Container>
       <div className="hero">
-        <MainHeading>{lang.language.language.my_name}</MainHeading>
+        <MainHeading>Evelina Wenner</MainHeading>
         <P>{lang.language.language.portfolio}</P>
       </div>
     </Container>
