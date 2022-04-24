@@ -8,6 +8,13 @@ export interface ILanguageVariables {
   home: string;
   about: string;
   guest_book: string;
+  // About page
+  intro: string;
+  hire_me: string;
+  education: string;
+  yh_points: string;
+  uni: string;
+  uni_major: string;
 }
 
 export const SE: ILanguageVariables = SEjson;

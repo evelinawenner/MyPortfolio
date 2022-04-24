@@ -24,7 +24,11 @@ export const Container = styled.header`
     font-family: Lato, sans-serif;
     font-size: 30px;
     margin-right: 30px;
-    color: #aa8465;
+    color: #212121;
     font-weight: 700;
+
+    &:hover {
+      color: #aa8465;
+    }
   }
 `;

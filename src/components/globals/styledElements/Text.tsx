@@ -8,8 +8,21 @@ export const MainHeading = styled.h1`
   -webkit-text-stroke: 1px #aa8465;
 `;
 
-export const P = styled.p`
-  font-size: 2rem;
+export const Heading = styled.p`
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
   font-family: Lato, sans-serif;
+  color: #212121;
+`;
+
+interface IPProps {
+  fontWeight?: string;
+}
+export const P = styled.p`
+  font-size: 14px;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-weight: ${(props: IPProps) => props.fontWeight || "400"};
   color: #212121;
 `;
