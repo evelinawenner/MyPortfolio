@@ -1,3 +1,6 @@
 {
-    "portfolio":"portfolio"
+    "portfolio":"Portfolio",
+    "home":"HOME",
+    "about":"ABOUT",
+    "guest_book":"GUEST BOOK"
 }
