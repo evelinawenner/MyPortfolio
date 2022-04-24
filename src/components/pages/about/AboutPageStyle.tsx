@@ -50,6 +50,18 @@ export const AboutContainer = styled.div`
     height: 400px;
     width: 50%;
     background-color: #f5f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .edu-div {
+    width: 70%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .techstack {

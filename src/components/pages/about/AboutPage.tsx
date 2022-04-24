@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutContainer } from "./AboutPageStyle";
 import myself from "../../globals/assets/myself.jpg";
-import { P } from "../../globals/styledElements/Text";
+import { Heading, P } from "../../globals/styledElements/Text";
 
 export const AboutPage = () => {
   //Introduction
@@ -14,10 +14,10 @@ export const AboutPage = () => {
         <div className="intro-div">
           <img src={myself} alt="A picture of me" />
           <div className="intro-text">
-            <P style={{ marginBottom: 20, fontSize: 30, fontWeight: 600 }}>
+            <Heading style={{ marginBottom: 20 }}>
               Hi. This is me. A frontend developer to be. <br />
               Hire me?
-            </P>
+            </Heading>
             <P>
               Email: evelinawenner@gmail.com
               <br />
@@ -30,9 +30,15 @@ export const AboutPage = () => {
       </section>
       <section className="row">
         <section className="education">
-          <P></P>
-          <P></P>
-          <P></P>
+          <Heading>Education</Heading>
+          <div className="edu-div">
+            <P fontWeight="600">Medieinstitutet</P>
+            <P>Frontend Developer, 400Yh-poäng</P>
+          </div>
+          <div className="edu-div">
+            <P fontWeight="600">Örebro Universitet</P>
+            <P>Medier, kommunikation & PR (design), 180hp</P>
+          </div>
         </section>
         <section className="techstack"></section>
       </section>
