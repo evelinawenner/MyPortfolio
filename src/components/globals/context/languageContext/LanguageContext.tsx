@@ -1,5 +1,5 @@
 import { SE, EN } from "./languages/LanguageInterface";
-import React, { Children, createContext, ReactNode, useState } from "react";
+import React, { createContext, ReactNode, useState } from "react";
 
 export const languages = {
   SE: {
