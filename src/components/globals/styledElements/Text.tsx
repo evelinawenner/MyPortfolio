@@ -8,8 +8,15 @@ export const MainHeading = styled.h1`
   -webkit-text-stroke: 1px #aa8465;
 `;
 
+export const Heading = styled.p`
+  font-size: 30px;
+  font-family: Lato, sans-serif;
+  color: #212121;
+`;
+
 export const P = styled.p`
-  font-size: 2rem;
+  font-size: 14px;
+  margin: 0;
   font-family: Lato, sans-serif;
   color: #212121;
 `;
