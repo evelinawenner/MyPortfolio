@@ -15,6 +15,10 @@ export interface ILanguageVariables {
   yh_points: string;
   uni: string;
   uni_major: string;
+  // Guest book
+  sry_what: string;
+  name: string;
+  message: string;
 }
 
 export const SE: ILanguageVariables = SEjson;

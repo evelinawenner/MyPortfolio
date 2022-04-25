@@ -8,5 +8,8 @@
     "education":"Education",
     "yh_points":"YH points",
     "uni":"Örebro University",
-    "uni_major": "Media, communication & PR (design), 180hp"
+    "uni_major": "Media, communication & PR (design), 180hp",
+    "sry_what":"Sorry, what was that?",
+    "name":"Name",
+    "message":"Message"
 }
