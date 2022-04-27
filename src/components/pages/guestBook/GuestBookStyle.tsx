@@ -8,4 +8,8 @@ export const GuestBookContiner = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  .entries-heading {
+    margin-top: 30px;
+  }
 `;

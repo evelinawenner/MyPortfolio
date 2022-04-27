@@ -4,24 +4,27 @@ export const AddEntryContainer = styled.div`
   .form {
     display: flex;
     flex-direction: column;
+    width: 500px;
   }
 
   .label {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 8px;
   }
 
   .name-input {
+    font-family: Lato, sans-serif;
+    padding: 10px;
     border: none;
     border-radius: 5px;
-    height: 30px;
-    width: 500px;
   }
 
   .message-input {
+    font-family: Lato, sans-serif;
     border: none;
     border-radius: 5px;
     height: 150px;
+    padding: 10px;
   }
 
   .submit-button {

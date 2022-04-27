@@ -19,6 +19,7 @@ export interface ILanguageVariables {
   sry_what: string;
   name: string;
   message: string;
+  lets_see: string;
 }
 
 export const SE: ILanguageVariables = SEjson;
