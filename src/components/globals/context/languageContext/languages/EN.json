@@ -1,5 +1,5 @@
 {
-    "portfolio":"Portfolio",
+    "portfolio":"PORTFOLIO",
     "home":"HOME",
     "about":"ABOUT",
     "guest_book":"GUEST BOOK",
@@ -8,5 +8,9 @@
     "education":"Education",
     "yh_points":"YH points",
     "uni":"Örebro University",
-    "uni_major": "Media, communication & PR (design), 180hp"
+    "uni_major": "Media, communication & PR (design), 180hp",
+    "sry_what":"Sorry, what was that?",
+    "name":"Name",
+    "message":"Message",
+    "lets_see": "Let's see..."
 }
