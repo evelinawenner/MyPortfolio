@@ -32,11 +32,31 @@ export const AboutContainer = styled.div`
     margin-left: 30px;
 
     a {
-      color: #45818e;
+      position: relative;
+      color: #aa8465;
       text-decoration: none;
+      z-index: 2;
 
       &:hover {
         color: #0c343d;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+
+        &::after {
+          position: absolute;
+          content: "";
+          background: #c6dbb6;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          bottom: 1px;
+          height: 5px;
+          width: 105%;
+          z-index: -1;
+        }
       }
     }
   }
