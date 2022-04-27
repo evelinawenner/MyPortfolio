@@ -28,6 +28,8 @@ export const Container = styled.header`
     margin-right: 30px;
     color: #212121;
     font-weight: 700;
+    transition: color 0.5s;
+    transition-timing-function: ease in;
 
     &:hover {
       color: #aa8465;
